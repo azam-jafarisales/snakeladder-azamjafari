@@ -96,11 +96,8 @@ dice.addEventListener('click', function () {
                     }
                 }, 200)
             }
-            else {
-                if (wait == true) {
-                    currentindex = currentindex - randomNum;
-                    home[currentindex] = ` <div class="marble"></div>`
-                }
+            else{
+                    wait = false;
             }
         }
     }
